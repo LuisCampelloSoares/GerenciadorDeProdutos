@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: rgb(48, 48, 48);
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+main{
+    padding: 30px 50px;
+}
+.card{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.input{
+    display: grid;
+    margin-bottom: 15px;
+}
+input{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+button{
+    border: 0;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+button:hover{
+    background-color: black;
+}
+.conteudo {
+    margin-top: 15px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+table th{
+    background-color: rgb(30, 30, 30);
+    padding: 1px;
+    color: aliceblue;
+}
+table td{
+    padding: 1px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+table td img{
+    width: 25px;
+}
